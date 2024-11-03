@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Matching Game</title>
+
+    <!-- Google AdSense Code for Auto Placement -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9898504952080648"
         crossorigin="anonymous"></script>  
+
     <style>
         :root {
             --card-size: 100px;
@@ -109,18 +112,6 @@
             background-color: #1976d2;
         }
 
-        /* Ad container styles */
-        .ad-container {
-            width: 100%;
-            max-width: 728px;
-            margin: 20px auto;
-            min-height: 90px;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         @media (max-width: 600px) {
             :root {
                 --card-size: 70px;
@@ -130,12 +121,6 @@
     </style>
 </head>
 <body>
-    <!-- Top Ad Container -->
-    <div class="ad-container">
-        <!-- Add your AdSense code here -->
-        <div id="top-ad"></div>
-    </div>
-
     <div class="game-container">
         <div class="header">
             <h1>Memory Matching Game</h1>
@@ -147,12 +132,6 @@
         </div>
 
         <div class="game-board" id="gameBoard"></div>
-    </div>
-
-    <!-- Bottom Ad Container -->
-    <div class="ad-container">
-        <!-- Add your AdSense code here -->
-        <div id="bottom-ad"></div>
     </div>
 
     <script>
@@ -293,13 +272,6 @@
 
         // Initialize the game
         const game = new MemoryGame();
-
-        // Google AdSense code would go here
-        window.addEventListener('load', function() {
-            // Add your Google AdSense code here
-            // Example:
-            // (adsbygoogle = window.adsbygoogle || []).push({});
-        });
     </script>
 </body>
 </html>
